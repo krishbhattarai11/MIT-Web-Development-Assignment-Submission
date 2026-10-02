@@ -1,0 +1,35 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+.site-header{
+    display: flex;
+    padding: 20px 20px;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    color: white;
+}
+nav ul {
+    list-style: none;
+    display: flex;
+    gap: 25px;
+}
+nav a{
+    text-decoration: none;
+}
+ul li a{
+    padding: 11px 15px;
+    color: white;
+    font-size: 18px;
+}
+ul li a:hover{
+    background-color: rgb(33, 32, 32);
+}
+h1{
+    font-size: 35px;
+}
