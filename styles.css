@@ -153,6 +153,7 @@ section h2::after {
     border: 1px solid var(--border);
     border-radius: 8px;
     padding: 12px;
+    background-color: var(--surface);
 }
 
 #projects {
@@ -200,11 +201,12 @@ section h2::after {
 }
 
 #contacts form {
-    max-width: 750px;
+    max-width: 850px;
     margin: auto;
     padding: 35px;
     border: 1px solid var(--border);
     border-radius: 12px;
+    background-color: var(--surface);
 }
 
 #contacts label {
