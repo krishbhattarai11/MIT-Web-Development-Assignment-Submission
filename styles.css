@@ -208,7 +208,6 @@ section h2::after {
     border-radius: 12px;
     background-color: var(--surface);
 }
-
 #contacts label {
     display: block;
     font-weight: bold;
