@@ -9,29 +9,24 @@
 </head>
 
 <body>
-    <header>
-        <div class="site-header">
-            <h1>Krish Bhattarai</h1>
-            <nav aria-label="Primary Navigation">
-                <ul>
-                    <li><a href="#about">About</a></li>
-                    <li><a href="#skills">Skills</a></li>
-                    <li><a href="#projects">Project</a></li>
-                    <li><a href="#contacts">Contacts</a></li>
-                </ul>
-            </nav>
-        </div>
+    <header class="site-header">
+        <h1>Krish Bhattarai</h1>
+        <nav aria-label="Primary Navigation">
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Project</a></li>
+                <li><a href="#contacts">Contacts</a></li>
+            </ul>
+        </nav>
     </header>
     <main>
         <section id="about">
             <h2>About Me</h2>
-            <img src="krish.jpg" alt="krish" width="365">
+            <img src="krish.jpg" alt="Krish Bhattarai">
             <p>I am an Information Technology student interested in software development, databases, web technologies,
                 and financial technology. I enjoy building practical software projects that solve real-world problems
-                and help me develop my technical and problem-solving skills. I am an Information Technology student
-                interested in software development, databases, web technologies, and financial technology. I enjoy
-                building practical software projects that solve real-world problems and help me develop my technical and
-                problem-solving skills.</p>
+                and help me develop my technical and problem-solving skills.</p>
             <p>
                 My goal is to build a successful career in the IT and finance
                 sector by continuously developing my programming, database,
@@ -42,18 +37,30 @@
         <section id="skills">
             <h2>Technical Skills</h2>
             <dl>
-                <dt>HTML5</dt>
-                <dd>Creating semantic and accessible web pages using HTML5 elements.</dd>
-                <dt>CSS</dt>
-                <dd>Understanding layout, responsive design, and basic visual presentation.</dd>
-                <dt>JavaScript</dt>
-                <dd>Adding basic interaction and functionality to web applications.</dd>
-                <dt>Java</dt>
-                <dd>Developing object-oriented programs and server-side applications.</dd>
-                <dt>MySQL</dt>
-                <dd>Designing databases and working with structured data using SQL.</dd>
-                <dt>Git And Github</dt>
-                <dd>Managing source code and collaborating through version control.</dd>
+                <div class="skills-img">
+                    <dt><img src="htmlLogo.jpg" alt="HTML5">HTML</dt>
+                    <dd>Creating semantic and accessible web pages using HTML5 elements.</dd>
+                </div>
+                <div class="skills-img">
+                    <dt><img src="CSS-Logo.png" alt="CSS">CSS</dt>
+                    <dd>Understanding layout, responsive design, and basic visual presentation.</dd>
+                </div>
+                <div class="skills-img">
+                    <dt><img src="JavaScript-Logo.png" alt="JavaScript">JavaScript</dt>
+                    <dd>Adding basic interaction and functionality to web applications.</dd>
+                </div>
+                <div class="skills-img">
+                    <dt><img src="Java-Logo.png" alt="Java">Java</dt>
+                    <dd>Developing object-oriented programs and server-side applications.</dd>
+                </div>
+                <div class="skills-img">
+                    <dt><img src="MySQL-Logo.png" alt="MySQL">MySQL</dt>
+                    <dd>Designing databases and working with structured data using SQL.</dd>
+                </div>
+                <div class="skills-img">
+                    <dt><img src="GitHub-logo.png" alt="GitHub">GitHub</dt>
+                    <dd>Managing source code and collaborating through version control.</dd>
+                </div>
             </dl>
         </section>
 
@@ -72,7 +79,7 @@
                     JavaScript, Java Servlets, JSP, JDBC, MySQL, and
                     Apache Tomcat.
                 </p>
-                <p><a href="">Project repository</a></p>
+                <p><a href="">View Project</a></p>
             </article>
             <article>
                 <h3>Insurance Management System</h3>
@@ -87,7 +94,7 @@
                 </p>
                 <p>
                     <a href="">
-                        Project Repository
+                        View Project
                     </a>
                 </p>
             </article>
@@ -98,13 +105,13 @@
             <form action="#" method="post">
                 <label for="name">Name: </label>
                 <input type="text" id="name" name="fullname" placeholder="Enter your name" required>
-                <br><br>
+
                 <label for="email">Email: </label>
                 <input type="email" id="email" name="email" placeholder="Enter your email"
-                    title="For example: abc@gmail.com">
-                <br>
+                    title="For example: abc@gmail.com" required>
+
                 <p>
-                    <label for="message">Message: </label><br>
+                    <label for="message">Message: </label>
                     <textarea name="messages" id="message" rows="8" cols="45"
                         placeholder="Write your message here..."></textarea>
                 </p>
@@ -114,11 +121,11 @@
             </form>
         </section>
     </main>
-    <footer>
+    <footer >
         <nav aria-label="Secondary navigation">
-            <a href="#about">About</a> |
-            <a href="#skills">Skills</a> |
-            <a href="#projects">Projects</a> |
+            <a href="#about">About</a>
+            <a href="#skills">Skills</a>
+            <a href="#projects">Projects</a>
             <a href="#contacts">Contacts</a>
         </nav>
         <p>
