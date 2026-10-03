@@ -4,6 +4,18 @@
     box-sizing: border-box;
 }
 
+:root {
+    --main-color: #0F766E;
+    --main-color-dark: #115E59;
+    --line: #F97316;
+    --background: #F8F5F0;
+    --surface: #c9c5c5;
+    --surface-dark: #1E293B;
+    --text: #000000;
+    --white-color: #FFFFFF;
+    --border: #D6D3D1;
+}
+
 .skiplink {
     position: absolute;
     background-color: var(--main-color);
@@ -17,18 +29,6 @@
 
 .skiplink:focus {
     top: 1rem;
-}
-
-:root {
-    --main-color: #0F766E;
-    --main-color-dark: #115E59;
-    --line: #F97316;
-    --background: #F8F5F0;
-    --surface: #c9c5c5;
-    --surface-dark: #1E293B;
-    --text: #000000;
-    --white-color: #FFFFFF;
-    --border: #D6D3D1;
 }
 
 body {
@@ -45,6 +45,7 @@ body {
     align-items: center;
     background-color: var(--surface-dark);
     color: var(--white-color);
+    line-height: 1.5;
     position: sticky;
     top: 0;
 }
@@ -133,8 +134,8 @@ section h2::after {
 }
 
 #skills dt img {
-    width: 80px;
-    height: 80px;
+    width: 145px;
+    height: 145px;
     object-fit: contain;
     margin-bottom: 12px;
 }
@@ -294,6 +295,7 @@ footer>nav:last-child {
 
 footer>nav:last-child a {
     font-size: 18px;
+    font-weight: 700;
     padding: 8px 12px;
     border-radius: 12px;
     text-decoration: nonw;
