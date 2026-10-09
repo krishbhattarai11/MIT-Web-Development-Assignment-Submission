@@ -7,6 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio | Krish Bhattarai</title>
     <link rel="stylesheet" href="styles.css">
+    <script src="script.js" defer></script>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
 
@@ -26,43 +27,47 @@
     <main id="main-content">
         <section id="about">
             <h2>About Me</h2>
-            <img src="Images/krish.jpg" alt="Krish Bhattarai">
-            <p>I am an Information Technology student interested in software development, databases, web technologies,
-                and financial technology. I enjoy building practical software projects that solve real-world problems
-                and help me develop my technical and problem-solving skills.</p>
-            <p>
-                My goal is to build a successful career in the IT and finance
-                sector by continuously developing my programming, database,
-                and software development skills.
-            </p>
-        </section>
-        
-        <section id="image-slider">
-            <h2>Image Slider</h2>
 
-            <div class="slider" aria-label="Image gallery">
-                <div class="slider-window">
-                    <div class="slider-track">
-                        <div class="slide">
-                            <img src="Images/slide1.jpg" alt="Mountain landscape">
-                        </div>
-                        <div class="slide">
-                            <img src="Images/slide2.jpg" alt="Beautiful natural scenery">
-                        </div>
-                        <div class="slide">
-                            <img src="Images/slide3.jpg" alt="Sunset landscape">
-                        </div>
-                        <div class="slide">
-                            <img src="Images/slide4.jpg" alt="Scenic outdoor view">
-                        </div>
-                    </div>
-
-                    <button class="slider-btn prev" type="button" aria-label="Previous image">&#10094;</button>
-
-                    <button class="slider-btn next" type="button" aria-label="Next image">&#10095;</button>
+            <div class="about-container">
+                <div class="about-image">
+                    <img src="Images/krish.jpg" alt="Portrait of Krish Bhattarai">
                 </div>
 
-                <div class="slider-dots" aria-label="Choose an image"></div>
+                <div class="about-content">
+                    <h3>Hello, I'm Krish Bhattarai</h3>
+
+                    <p>
+                        I am an Information Technology student interested in
+                        web development, software engineering, and financial
+                        technology. I enjoy learning new technologies and
+                        applying my knowledge to practical projects.
+                    </p>
+
+                    <p>
+                        My goal is to build my technical skills and develop
+                        useful digital solutions. I am continuously learning
+                        and looking for opportunities to grow in the IT field.
+                    </p>
+
+                    <a href="#contacts" class="about-button">Contact Me</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="image-slider">
+            <h2>Image Slider</h2>
+            <div class="slider">
+                <div class="slider-window">
+                    <div class="slider-track">
+                        <div class="slide"> <img src="Images/slide1.jpg" alt="Mountain scenery"> </div>
+                        <div class="slide"> <img src="Images/slide2.jpg" alt="Natural landscape"> </div>
+                        <div class="slide"> <img src="Images/slide3.jpg" alt="Sunset scenery"> </div>
+                        <div class="slide"> <img src="Images/slide4.jpg" alt="Scenic landscape"> </div>
+                    </div> 
+                    <button class="slider-btn prev" type="button" aria-label="Previous image">&#10094;</button>
+                    <button class="slider-btn next" type="button" aria-label="Next image">&#10095;</button>
+                </div>
+                <div class="slider-dots" aria-label="Select an image"></div>
             </div>
         </section>
 
