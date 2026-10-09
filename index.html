@@ -26,7 +26,7 @@
     <main id="main-content">
         <section id="about">
             <h2>About Me</h2>
-            <img src="krish.jpg" alt="Krish Bhattarai">
+            <img src="Images/krish.jpg" alt="Krish Bhattarai">
             <p>I am an Information Technology student interested in software development, databases, web technologies,
                 and financial technology. I enjoy building practical software projects that solve real-world problems
                 and help me develop my technical and problem-solving skills.</p>
@@ -36,32 +36,61 @@
                 and software development skills.
             </p>
         </section>
+        
+        <section id="image-slider">
+            <h2>Image Slider</h2>
+
+            <div class="slider" aria-label="Image gallery">
+                <div class="slider-window">
+                    <div class="slider-track">
+                        <div class="slide">
+                            <img src="Images/slide1.jpg" alt="Mountain landscape">
+                        </div>
+                        <div class="slide">
+                            <img src="Images/slide2.jpg" alt="Beautiful natural scenery">
+                        </div>
+                        <div class="slide">
+                            <img src="Images/slide3.jpg" alt="Sunset landscape">
+                        </div>
+                        <div class="slide">
+                            <img src="Images/slide4.jpg" alt="Scenic outdoor view">
+                        </div>
+                    </div>
+
+                    <button class="slider-btn prev" type="button" aria-label="Previous image">&#10094;</button>
+
+                    <button class="slider-btn next" type="button" aria-label="Next image">&#10095;</button>
+                </div>
+
+                <div class="slider-dots" aria-label="Choose an image"></div>
+            </div>
+        </section>
 
         <section id="skills">
             <h2>Technical Skills</h2>
             <dl>
                 <div class="skills-img">
-                    <dt><img src="htmlLogo.jpg" alt="HTML5">HTML</dt>
+                    <dt><img src="Images/htmlLogo.jpg" alt="HTML5">HTML</dt>
                     <dd>Creating semantic and accessible web pages using HTML5 elements.</dd>
                 </div>
                 <div class="skills-img">
-                    <dt><img src="CSS-Logo.png" alt="CSS">CSS</dt>
+                    <dt><img src="Images/CSS-Logo.png" alt="CSS">CSS</dt>
                     <dd>Understanding layout, responsive design, and basic visual presentation.</dd>
                 </div>
                 <div class="skills-img">
-                    <dt><img src="JavaScript-Logo.png" alt="JavaScript">JavaScript</dt>
+                    <dt><img src="Images/JavaScript-Logo.png" alt="JavaScript">JavaScript</dt>
                     <dd>Adding basic interaction and functionality to web applications.</dd>
                 </div>
                 <div class="skills-img">
-                    <dt><img src="Java-Logo.png" alt="Java">Java</dt>
+                    <dt><img src="Images/Java-Logo.png" alt="Java">Java</dt>
                     <dd>Developing object-oriented programs and server-side applications.</dd>
                 </div>
                 <div class="skills-img">
-                    <dt><img src="MySQL-Logo.png" alt="MySQL">MySQL</dt>
+                    <dt><img src="Images/MySQL-Logo.png" alt="MySQL">MySQL</dt>
                     <dd>Designing databases and working with structured data using SQL.</dd>
                 </div>
                 <div class="skills-img">
-                    <dt><img src="GitHub-logo.png" alt="GitHub">GitHub</dt>
+                    <dt><img src="Images/GitHub-logo.png" alt="GitHub">GitHub</dt>
                     <dd>Managing source code and collaborating through version control.</dd>
                 </div>
             </dl>
@@ -125,18 +154,24 @@
         </section>
     </main>
     <footer>
-        <nav aria-label="Secondary navigation">
-            <a href="#about">About</a>
-            <a href="#skills">Skills</a>
-            <a href="#projects">Projects</a>
-            <a href="#contacts">Contacts</a>
-        </nav>
-        <h2>Socials</h2>
-
-        <nav aria-label="Social Media">
-            <a href="https://www.linkedin.com/in/krish-bhattarai-517936242 " target="_blank"><i class="fa-brands fa-linkedin"></i>LinkedIn<a>
-            <a href="https://github.com/krishbhattarai11/MIT-Web-Development-Assignment-Submission.git" target="_blank"><i class="fa-brands fa-github"></i>GitHub</a>
-        </nav>
+        <div class="footer-container">
+            <div class="footer-about">
+                <h2>Krish Bhattarai</h2>
+                <p>Information Technology Student</p>
+            </div>
+            <div class="footer-links">
+                <h3>Quick Links</h3>
+                <nav aria-label="Footer Navigation"> <a href="index.html">Home</a> <a href="skills.html">Skills</a> <a
+                        href="projects.html">Projects</a> <a href="contact.html">Contact</a> </nav>
+            </div>
+            <div class="footer-social">
+                <h3>Connect</h3>
+                <nav aria-label="Social Media"> <a href="https://www.linkedin.com/in/krish-bhattarai-517936242"
+                        target="_blank"> <i class="fa-brands fa-linkedin"></i> LinkedIn </a> <a
+                        href="https://github.com/krishbhattarai11/MIT-Web-Development-Assignment-Submission.git"
+                        target="_blank"> <i class="fa-brands fa-github"></i> GitHub </a> </nav>
+            </div>
+        </div>
     </footer>
 
 </body>
